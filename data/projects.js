@@ -5,6 +5,9 @@ export const projects = [
         projectUrl: 'https://starlit-brigadeiros-2cb599.netlify.app/',
         frontEnd: 'https://github.com/konstantinstanmeyer/keyboard',
         backEnd: 'https://github.com/konstantinstanmeyer/keyboard2',
+        languages: [
+            "React, Rails API, Devise, ActiveStorage, Tailwind CSS, Google Cloud"
+        ],
         util: 'keyboard-app'
     }
 ]
