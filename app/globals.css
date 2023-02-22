@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@500;600;700&display=swap');
+
 #text{
     background: url('https://ichef.bbci.co.uk/news/1024/cpsprodpb/9874/production/_89882093_89882033.jpg');
     background-attachment: fixed;
