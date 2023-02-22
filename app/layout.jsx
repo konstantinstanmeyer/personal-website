@@ -9,6 +9,10 @@ export default function RootLayout({ children }) {
       */}
       <head />
       <body className="bg-black/95">
+      <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+      <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@500&display=swap" rel="stylesheet"></link>
       <p id="text" className="w-full h-screen fixed top-0 m-0 p-0 leading-[0.6rem] -z-40">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius commodo nulla sollicitudin lacinia. Nunc aliquam, urna vitae pellentesque faucibus, est ex imperdiet mauris, vitae dictum nisi eros quis dolor. Donec elit libero, interdum at tincidunt nec, faucibus et quam. Nullam nibh dolor, venenatis ut lorem egestas, consequat hendrerit neque. Nullam eget arcu non nunc lacinia condimentum. Quisque cursus leo ut venenatis viverra. Fusce condimentum nec magna in semper.
 
