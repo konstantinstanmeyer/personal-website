@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#text{
+    background: url('https://ichef.bbci.co.uk/news/1024/cpsprodpb/9874/production/_89882093_89882033.jpg');
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    font-size: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-text-fill-color: rgba(255,255,255,0.1);
+    line-break: anywhere;
+    overflow: hidden;
+}

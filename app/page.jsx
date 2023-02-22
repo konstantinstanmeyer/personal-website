@@ -6,22 +6,20 @@ import { projects } from '../data/projects';
 export default function HomePage(){
   return(
     <div className="mx-auto flex flex-col justify-center mt-28 relative">
-      <div className="w-3/5 mx-auto flex flex-col select-none px-5 mb-5 relative">
-        <Link className="-top-3 right-6 absolute rounded-lg my-4 flex flex-row items-center hover:bg-gray-600 transition-all duration-300 bg-gray-700 h-20 [&>*]:mx-2 w-48 mx-auto justify-center" href="/resume">
-          <img src="https://cdn-icons-png.flaticon.com/512/2986/2986528.png" className="h-12"/>
-          <p className="text-gray-300 font-bold">Resume PDF</p>
-        </Link>
-        <h1 className="text-4xl font-bold text-gray-400">Konstantin Stanmeyer</h1>
-        <h4 className="text-2xl text-gray-400 font-bold">Software Engineer</h4>
-        <div className="flex flex-row items-center font-bold text-gray-400 [&>*]:mr-3">
-          <a className="hover:underline" href="https://github.com/konstantinstanmeyer">Github</a>
-          <a className="hover:underline" href="https://www.linkedin.com/in/konstantin-stanmeyer/">LinkedIn</a>
-          <a className="hover:underline" href="https://dev.to/konstantinstanmeyer">Blog</a>
+      <div className="w-3/5 mx-auto flex flex-row select-none px-5 mb-5 relative bg-white/10 backdrop-blur rounded-lg py-3">
+        <div>
+          <h1 className="text-4xl font-bold text-gray-400">Konstantin Stanmeyer</h1>
+          <h4 className="text-2xl text-gray-400 font-bold">Software Engineer</h4>
+          <div className="flex flex-row items-center font-bold text-gray-400 [&>*]:mr-3">
+            <a className="hover:underline" href="https://github.com/konstantinstanmeyer">Github</a>
+            <a className="hover:underline" href="https://www.linkedin.com/in/konstantin-stanmeyer/">LinkedIn</a>
+            <a className="hover:underline" href="https://dev.to/konstantinstanmeyer">Blog</a>
+          </div>
         </div>
       </div>
       <h1 className="text-center text-gray-400 font-bold mt-12 mb-5 text-3xl select-none">About Me</h1>
-      <p className="text-gray-400 text-2xl font-bold text-center my-4 w-4/5 mx-auto select-none">
-        I am a full stack software engineer enjoying all things challenging. I spend most of my time working on logical problems, learning skills that will streamline and enhance development.
+      <p className="text-gray-400 text-2xl font-bold text-center my-4 w-2/5 mx-auto select-none">
+        Driven full-stack engineer experienced with multiple languages and frameworks including NEXT.js and Ruby on Rails. Adament hiker, 
       </p>
       <h2 className="select-none text-3xl mt-16 text-gray-400 font-bold text-center">Skills</h2>
       <div className="w-3/5 mx-auto flex flex-col select-none px-5 mb-5 relative">  
@@ -32,8 +30,8 @@ export default function HomePage(){
       <h2 className="select-none text-4xl mt-16 text-gray-400 font-bold text-center">Projects</h2>
       <div className="flex flex-wrap my-4 w-3/5 mx-auto">
         <PreviewCard project={projects[0]} />
-        <PreviewCard project={projects[0]} />
-        <PreviewCard project={projects[0]} />
+        <PreviewCard project={projects[1]} />
+        <PreviewCard project={projects[2]} />
       </div>
     </div>
   )
