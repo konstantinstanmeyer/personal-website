@@ -1,4 +1,5 @@
-import { projects } from '.../data/projects';
+import { projects } from '../projects';
+import PreviewCard from './PreviewCard.jsx'
 
 export default function Projects(){
     return(
