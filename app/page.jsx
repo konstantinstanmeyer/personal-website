@@ -23,25 +23,25 @@ export default function HomePage(){
       <div className="flex flex-col w-1/2 mx-auto my-2">
         <div className="flex flex-wrap items-center justify-center w-full mx-auto">
           <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 mx-6 flex justify-center items-center my-2">
-            <img src="/javascript.png" className="w-[80%] h-[80%] rounded-full" />
+            <img alt="javascript" src="/javascript.png" className="w-[80%] h-[80%] rounded-full" />
           </div>
           <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 mx-6 flex justify-center items-center my-2">
-            <img src="/react.png" className="w-[80%] h-[80%] rounded-full" />
+            <img alt="react" src="/react.png" className="w-[80%] h-[80%] rounded-full" />
           </div>
           <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 mx-6 flex justify-center items-center my-2">
-            <img src="/nextjs.svg" className="w-[80%] h-[80%] rounded-full invert" />
+            <img alt="nextjs" src="/nextjs.svg" className="w-[80%] h-[80%] rounded-full invert" />
           </div>
           <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 mx-6 flex justify-center items-center my-2">
-            <img src="/nodejs.webp" className="w-[80%] h-[80%] rounded-full" />
+            <img alt="mongodb" src="/mongodb.webp" className="w-[70%] h-[70%]" />
           </div>
           <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 mx-6 flex justify-center items-center my-2">
-            <img src="/nodejs.webp" className="w-[80%] h-[80%] rounded-full" />
+            <img alt="ruby" src="/ruby.png" className="w-[80%] h-[80%] rounded-full" />
           </div>
           <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 mx-6 flex justify-center items-center my-2">
-            <img src="/nodejs.webp" className="w-[80%] h-[80%] rounded-full" />
+            <img alt="ruby-on-rails" src="/rails.png" className="w-[80%] h-[80%] rounded-full" />
           </div>
           <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 mx-6 flex justify-center items-center my-2">
-            <img src="/nodejs.webp" className="w-[80%] h-[80%] rounded-full" />
+            <img alt="postgres" src="/postgres.png" className="w-[80%] h-[80%] object-cover rounded-full" />
           </div>
         </div>
       </div>
