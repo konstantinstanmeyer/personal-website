@@ -23,7 +23,7 @@ export default function HomePage(){
       <p className="text-purple-300 text-lg sm:text-xl font-bold my-4 w-4/5 sm:w-2/5 mt-16 mx-auto select-none bg-black/30 backdrop-blur-sm py-2 rounded-lg px-4">
         <span className="bebas text-xl sm:text-2xl text-purple-400 ">ABOUT ME: </span>I'm a full-stack software engineer with a passion for learning in all forms. I love to challenge myself, always striving to improve my process and approach. Experienced with multiple languages and frameworks including NEXT.js and Ruby on Rails. Avid runner and skateboarder.
       </p>
-      <div className="flex flex-col lg:w-1/2 w-5/6 md:w-3/5 mx-auto mt-2 mb-40">
+      <div className="flex flex-col lg:w-1/2 w-5/6 md:w-3/5 mx-auto mt-6 mb-40">
         <div className="flex flex-wrap items-center justify-center w-full mx-auto">
           <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-all duration-300 hover:brightness-110">
             <img alt="javascript" src="/javascript.png" className="w-[80%] h-[80%] rounded-full" />
