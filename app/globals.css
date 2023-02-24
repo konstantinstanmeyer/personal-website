@@ -23,7 +23,7 @@
     }
     .link {
         filter: invert(15%) sepia(51%) saturate(6416%) hue-rotate(270deg) brightness(100%) contrast(96%);
-        @apply w-14 mx-4 transition-all duration-300 hover:cursor-pointer;
+        @apply w-8 sm:w-14 mx-4 transition-all duration-300 hover:cursor-pointer;
     }
 }
 

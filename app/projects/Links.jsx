@@ -11,8 +11,8 @@ export default function Links(){
     }
 
     return(
-        <div className="flex fixed w-full bottom-10 z-40">
-            <div className="flex flex-row items-center justify-between w-fit mx-auto bg-purple-800/20 backdrop-blur-sm px-2 py-4">
+        <div className="flex fixed w-full bottom-0 sm:bottom-10 z-40">
+            <div className="flex flex-row items-center justify-between w-full h-fit sm:w-fit mx-auto bg-purple-800/20 !backdrop-blur-md px-2 py-4">
                 <Link href="/resume">
                     <img onClick={() => router.push(`/resume`)} className="link hover:hover" src="/resume.png" />
                 </Link>
