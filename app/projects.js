@@ -1,7 +1,7 @@
 export const projects = [
     {
         name: 'Exposure',
-        description: 'Discover all walks of life, only limited by which topics have not been suggested. Aimed towards those who love curiosity and interested in the unknown',
+        description: 'A platform to post about anything and everything. Expose yourself to new walks of life that catch your eye, dive deeper into a familiar topic',
         projectUrl: 'http://www.exposure-website.com',
         frontEnd: 'https://github.com/konstantinstanmeyer/exposure-frontend-ts',
         backEnd: 'https://github.com/konstantinstanmeyer/exposure-backend',
@@ -25,7 +25,7 @@ export const projects = [
     },
     {
         name: 'Run for the Hills',
-        description: 'A country-setting dating website using comedic filters to find your future lover. Search by attributes such as beard length, truck-lift height, etc.',
+        description: 'Use comedic filters to find your future lover in a country-style dating app. Search by attributes such as beard length, truck-lift height, etc.',
         frontEnd: 'https://github.com/konstantinstanmeyer/Run-For-The-Hills-Frontend',
         backEnd: 'https://github.com/konstantinstanmeyer/Run-For-The-Hills-Backend',
         languages: [
