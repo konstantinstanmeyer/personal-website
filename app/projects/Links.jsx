@@ -19,6 +19,9 @@ export default function Links(){
                 <a target="_blank" href="https://www.linkedin.com/in/konstantin-stanmeyer/">
                     <img className="link hover:hover" src="/linkedin.png" />
                 </a>
+                <Link href="/">
+                    <img className="link hover:hover" src="/home.png" />
+                </Link>
                 <a target="_blank" href="https://github.com/konstantinstanmeyer">
                     <img className="link hover:hover" src="/github.png" />
                 </a>
