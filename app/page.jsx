@@ -11,37 +11,43 @@ export default function HomePage(){
           <h1 className="text-xl sm:text-4xl font-bold text-purple-700 bebas">Konstantin Stanmeyer</h1>
           <h4 className="text-base sm:text-2xl text-purple-300 font-bold">Software Engineer</h4>
           <div className="flex flex-row items-center font-bold text-gray-400 [&>*]:mr-2 sm:[&>*]:mr-3">
-            <a className="text-purple-400 hover:underline bebas sm:text-base text-sm" href="https://github.com/konstantinstanmeyer">Github</a>
-            <a className="text-purple-400 hover:underline bebas sm:text-base text-sm" href="https://www.linkedin.com/in/konstantin-stanmeyer/">LinkedIn</a>
-            <a className="text-purple-400 hover:underline bebas sm:text-base text-sm" href="https://dev.to/konstantinstanmeyer">Blog</a>
+            <a target="_blank" className="text-purple-400 hover:underline bebas sm:text-base text-sm" href="https://github.com/konstantinstanmeyer">Github</a>
+            <a target="_blank" className="text-purple-400 hover:underline bebas sm:text-base text-sm" href="https://www.linkedin.com/in/konstantin-stanmeyer/">LinkedIn</a>
+            <a target="_blank" className="text-purple-400 hover:underline bebas sm:text-base text-sm" href="https://dev.to/konstantinstanmeyer">Blog</a>
           </div>
         </div>
       </div>
       <p className="text-purple-300 text-lg sm:text-xl font-bold my-4 w-4/5 sm:w-2/5 mt-16 mx-auto select-none bg-black/30 backdrop-blur-sm py-2 rounded-lg px-4">
         <span className="bebas text-xl sm:text-2xl text-purple-400 ">ABOUT ME: </span>I'm a full-stack engineer experienced with multiple languages and frameworks including NEXT.js and Ruby on Rails. I love to learn and challenge myself, always striving to improve my logic and approach. Currently living in Colorado. Avid runner and skateboarder.
       </p>
-      <div className="flex flex-col w-1/2 mx-auto my-2">
+      <div className="flex flex-col lg:w-1/2 w-5/6 md:w-3/5 mx-auto my-2">
         <div className="flex flex-wrap items-center justify-center w-full mx-auto">
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 mx-6 flex justify-center items-center my-2">
+          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1">
             <img alt="javascript" src="/javascript.png" className="w-[80%] h-[80%] rounded-full" />
           </div>
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 mx-6 flex justify-center items-center my-2">
+          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1">
             <img alt="react" src="/react.png" className="w-[80%] h-[80%] rounded-full" />
           </div>
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 mx-6 flex justify-center items-center my-2">
+          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1">
+            <img alt="redux" src="/redux.png" className="w-[75%] h-[75%] invert object-cover" />
+          </div>
+          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1">
             <img alt="nextjs" src="/nextjs.svg" className="w-[80%] h-[80%] rounded-full invert" />
           </div>
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 mx-6 flex justify-center items-center my-2">
+          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1">
             <img alt="mongodb" src="/mongodb.webp" className="w-[70%] h-[70%]" />
           </div>
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 mx-6 flex justify-center items-center my-2">
+          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1">
             <img alt="ruby" src="/ruby.png" className="w-[80%] h-[80%] rounded-full" />
           </div>
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 mx-6 flex justify-center items-center my-2">
+          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1">
             <img alt="ruby-on-rails" src="/rails.png" className="w-[80%] h-[80%] rounded-full" />
           </div>
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 mx-6 flex justify-center items-center my-2">
+          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1">
             <img alt="postgres" src="/postgres.png" className="w-[80%] h-[80%] object-cover rounded-full" />
+          </div>
+          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 h-28 md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1">
+            <img alt="aws" src="/aws.png" className="w-[80%] h-[80%] object-cover rounded-full" />
           </div>
         </div>
       </div>

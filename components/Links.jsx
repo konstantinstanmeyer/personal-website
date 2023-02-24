@@ -1,11 +1,30 @@
+"use client"
+
+import Link from "next/link";
+import { useRouter } from "next/navigation"
+
 export default function Links(){
+    const router = useRouter();
+
+    function handleClick(name){
+        router.push(`${name}`);
+    }
+
     return(
         <div className="flex flex-row items-center fixed w-full bottom-10 z-40">
             <div className="flex flex-row items-center justify-between w-fit mx-auto">
-                <img className="link hover:hover" src="/resume.png" />
-                <img className="link hover:hover" src="/linkedin.png" />
-                <img className="link hover:hover" src="/github.png" />
-                <img className="link hover:hover" src="/dev.png" />
+                <Link href="/resume">
+                    <img onClick={() => router.push(`/resume`)} className="link hover:hover" src="/resume.png" />
+                </Link>
+                <a target="_blank" href="https://www.linkedin.com/in/konstantin-stanmeyer/">
+                    <img className="link hover:hover" src="/linkedin.png" />
+                </a>
+                <a target="_blank" href="https://github.com/konstantinstanmeyer">
+                    <img className="link hover:hover" src="/github.png" />
+                </a>
+                <a target="_blank" href="https://dev.to/konstantinstanmeyer">
+                    <img className="link hover:hover" src="/dev.png" />
+                </a>
             </div>
         </div>
     )
