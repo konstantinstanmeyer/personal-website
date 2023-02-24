@@ -25,31 +25,31 @@ export default function HomePage(){
       </p>
       <div className="flex flex-col lg:w-1/2 w-5/6 md:w-3/5 mx-auto mt-3 mb-40">
         <div className="flex flex-wrap items-center justify-center w-full mx-auto">
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-[13%] aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-all duration-300 hover:brightness-110">
+          <div className="rounded-full bg-black/30 backdrop-blur-sm w-[13%] aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
             <img alt="javascript" src="/javascript.png" className="w-[80%] h-[80%] rounded-full" />
           </div>
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-[13%] aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-all duration-300 hover:brightness-110">
+          <div className="rounded-full bg-black/30 backdrop-blur-sm w-[13%] aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
             <img alt="react" src="/react.png" className="w-[80%] h-[80%] rounded-full" />
           </div>
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-[13%] aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-all duration-300 hover:brightness-125">
+          <div className="rounded-full bg-black/30 backdrop-blur-sm w-[13%] aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-125">
             <img alt="redux" src="/redux.png" className="w-[75%] h-[75%] invert object-cover" />
           </div>
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-[13%] aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-all duration-300 hover:brightness-125">
+          <div className="rounded-full bg-black/30 backdrop-blur-sm w-[13%] aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-125">
             <img alt="nextjs" src="/nextjs.svg" className="w-[80%] h-[80%] rounded-full invert" />
           </div>
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-[13%] aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-all duration-300 hover:brightness-125">
+          <div className="rounded-full bg-black/30 backdrop-blur-sm w-[13%] aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-125">
             <img alt="mongodb" src="/mongodb.webp" className="w-[70%] h-[70%]" />
           </div>
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-[13%] aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-all duration-300 hover:brightness-110">
+          <div className="rounded-full bg-black/30 backdrop-blur-sm w-[13%] aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
             <img alt="ruby" src="/ruby.png" className="w-[80%] h-[80%] rounded-full" />
           </div>
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-[13%] aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-all duration-300 hover:brightness-110">
+          <div className="rounded-full bg-black/30 backdrop-blur-sm w-[13%] aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
             <img alt="ruby-on-rails" src="/rails.png" className="w-[80%] h-[80%] rounded-full" />
           </div>
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-[13%] aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-all duration-300 hover:brightness-125">
+          <div className="rounded-full bg-black/30 backdrop-blur-sm w-[13%] aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-125">
             <img alt="postgres" src="/postgres.png" className="w-[80%] h-[80%] object-cover rounded-full" />
           </div>
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-[13%] aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-all duration-300 hover:brightness-110">
+          <div className="rounded-full bg-black/30 backdrop-blur-sm w-[13%] aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
             <img alt="aws" src="/aws.png" className="w-[80%] h-[80%] object-cover rounded-full" />
           </div>
         </div>
