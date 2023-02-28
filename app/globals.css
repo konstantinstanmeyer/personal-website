@@ -25,6 +25,10 @@
         filter: invert(15%) sepia(51%) saturate(6416%) hue-rotate(270deg) brightness(100%) contrast(96%);
         @apply transition-all duration-300 hover:hover hover:cursor-pointer;
     }
+    .resume {
+        filter: invert(78%) sepia(46%) saturate(5639%) hue-rotate(218deg) brightness(95%) contrast(109%);
+        @apply transition-all duration-300 hover:hover hover:cursor-pointer;
+    }
 }
 
 #text{
