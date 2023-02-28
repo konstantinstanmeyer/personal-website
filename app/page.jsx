@@ -1,5 +1,4 @@
-import PreviewCard from "../components/PreviewCard"
-import Image from "next/image";
+import Projects from "@/components/Projects";
 import Links from "../components/Links";
 
 import { projects } from './projects';
@@ -28,35 +27,35 @@ export default function HomePage(){
         </p>
         <p id="two" className="absolute top-[-14rem] invisible">anchor</p>
       </div>
-      <div className="flex flex-col lg:w-1/2 w-5/6 md:w-3/5 mx-auto mt-1 mb-36 h-[75vh] justify-center relative">
+      <div className="flex flex-col lg:w-1/2 w-5/6 md:w-3/5 mx-auto h-[75vh] -mt-2 justify-center relative">
         <p id="three" className="absolute invisible">anchor</p>
         <p className="text-purple-500 bebas text-4xl mb-3">technical skills</p>
         <div className="flex flex-wrap items-center justify-center w-full mx-auto">
-          <div className="rounded-full bg-neutral-500/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
+          <div className="rounded-full bg-neutral-500/20 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
             <img alt="javascript" src="/javascript.png" className="w-[80%] h-[80%] rounded-full" />
           </div>
-          <div className="rounded-full bg-neutral-500/30 backdrop-blur-sm w-28 md:aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
+          <div className="rounded-full bg-neutral-500/20 backdrop-blur-sm w-28 md:aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
             <img alt="react" src="/react.png" className="w-[80%] h-[80%] rounded-full" />
           </div>
-          <div className="rounded-full bg-neutral-500/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-125">
+          <div className="rounded-full bg-neutral-500/20 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-125">
             <img alt="redux" src="/redux.png" className="w-[75%] h-[75%] invert object-cover" />
           </div>
-          <div className="rounded-full bg-neutral-500/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-125">
+          <div className="rounded-full bg-neutral-500/20 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-125">
             <img alt="nextjs" src="/nextjs.svg" className="w-[80%] h-[80%] rounded-full invert" />
           </div>
-          <div className="rounded-full bg-neutral-500/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-125">
+          <div className="rounded-full bg-neutral-500/20 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-125">
             <img alt="mongodb" src="/mongodb.webp" className="w-[70%] h-[70%]" />
           </div>
-          <div className="rounded-full bg-neutral-500/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
+          <div className="rounded-full bg-neutral-500/20 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
             <img alt="ruby" src="/ruby.png" className="w-[80%] h-[80%] rounded-full" />
           </div>
-          <div className="rounded-full bg-neutral-500/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
+          <div className="rounded-full bg-neutral-500/20 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
             <img alt="ruby-on-rails" src="/rails.png" className="w-[80%] h-[80%] rounded-full" />
           </div>
-          <div className="rounded-full bg-neutral-500/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-125">
+          <div className="rounded-full bg-neutral-500/20 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-125">
             <img alt="postgres" src="/postgres.png" className="w-[80%] h-[80%] object-cover rounded-full" />
           </div>
-          <div className="rounded-full bg-neutral-500/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
+          <div className="rounded-full bg-neutral-500/20 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
             <img alt="aws" src="/aws.png" className="w-[80%] h-[80%] object-cover rounded-full" />
           </div>
         </div>
@@ -67,6 +66,11 @@ export default function HomePage(){
         <h6 className="text-xl text-purple-400"><span className="text-2xl font-bold">Back End:</span> Ruby | Rails | NodeJS | Express | SQL(PostgreSQL, MySQL, SQLite) | MongoDB | GraphQL | Redis | Deno</h6>
         <h6 className="text-xl text-purple-400"><span className="text-2xl font-bold">Tools:</span> Google Cloud | AWS(S3, EC2, Amplify) | Heroku | Docker | NGINX | Vercel | Postman</h6>
       </div> */}
+      <Projects />
+      <div id="five" className="h-[20vh] flex flex-col items-center justify-center">
+        <p className="text-purple-300 bebas text-2xl">Contact:</p>
+        <p className="text-purple-300 bebas text-2xl">konstantin@stanmeyer.com</p>
+      </div>
     </div>
     </>
   )

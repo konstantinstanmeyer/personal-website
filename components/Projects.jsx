@@ -1,11 +1,11 @@
-import { projects } from '../projects';
+import { projects } from '../app/projects.js';
 import PreviewCard from './PreviewCard.jsx'
 
 export default function Projects(){
     return(
-        <div className="mb-32">
-            <h2 className="select-none text-5xl mt-10 font-bold mb-10 text-purple-700 bebas text-center w-44 py-2 mx-auto">Projects</h2>
-            <div className="flex flex-wrap my-4 w-3/5 mx-auto">
+        <div id="four" className="from-violet-900/[0.01] via-purple-700/80 to-violet-900/[0.01] bg-gradient-to-b">
+            <h2 className="select-none text-5xl font-bold mb-10 text-purple-400 bebas w-4/5 pl-4 mx-auto mt-24">Projects</h2>
+            <div className="flex flex-wrap my-4 w-4/5 mx-auto">
                 <PreviewCard project={projects[0]} />
                 <PreviewCard project={projects[1]} />
                 <PreviewCard project={projects[2]} />

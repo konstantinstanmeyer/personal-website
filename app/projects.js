@@ -3,8 +3,7 @@ export const projects = [
         name: 'Exposure',
         description: 'An online discover app to exposure yourself to new walks of life or dive deeper a familiar topic',
         projectUrl: 'http://www.exposure-website.com',
-        frontEnd: 'https://github.com/konstantinstanmeyer/exposure-frontend-ts',
-        backEnd: 'https://github.com/konstantinstanmeyer/exposure-backend',
+        repository: 'https://github.com/konstantinstanmeyer/exposure',
         languages: [
             "NEXT.js, TypeScript, Node.js, Redux, MongoDB, AWS(S3, EC2)"
         ],
@@ -15,8 +14,7 @@ export const projects = [
         name: 'Keyboard App',
         description: 'Test your words-per-minute against multiple game modes and compare them against other users',
         projectUrl: 'https://starlit-brigadeiros-2cb599.netlify.app/',
-        frontEnd: 'https://github.com/konstantinstanmeyer/keyboard',
-        backEnd: 'https://github.com/konstantinstanmeyer/keyboard2',
+        repository: 'https://github.com/konstantinstanmeyer/keyboard-app',
         languages: [
             "React, Rails on Rails, Devise, ActiveStorage, Tailwind CSS, Google Cloud"
         ],
@@ -26,8 +24,7 @@ export const projects = [
     {
         name: 'Run for the Hills',
         description: 'Use comedic filters to find your future lover in a country-style dating app',
-        frontEnd: 'https://github.com/konstantinstanmeyer/Run-For-The-Hills-Frontend',
-        backEnd: 'https://github.com/konstantinstanmeyer/Run-For-The-Hills-Backend',
+        repository: 'https://github.com/konstantinstanmeyer/Run-For-The-Hills-Frontend',
         languages: [
             "Ruby on Rails, PostgreSQL, React, Tailwind CSS"
         ],

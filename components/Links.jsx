@@ -32,13 +32,13 @@ export default function Links(){
                 <a href="#two" className="text-purple-600 bebas text-xl mx-3 px-2 hover:text-purple-500 transition-all duration-300">
                     About
                 </a>
-                <a className="text-purple-600 bebas text-xl mx-3 px-2 hover:text-purple-500 transition-all duration-300" target="_blank" href="https://github.com/konstantinstanmeyer">
+                <a href="#four" className="text-purple-600 bebas text-xl mx-3 px-2 hover:text-purple-500 transition-all duration-300">
                     Projects
                 </a>
                 <a href="#three" className="text-purple-600 bebas text-xl mx-3 px-2 hover:text-purple-500 transition-all duration-300">
                     Skills
                 </a>
-                <a className="text-purple-600 bebas text-xl ml-3 px-2 mr-6 hover:text-purple-500 transition-all duration-300" target="_blank" href="https://dev.to/konstantinstanmeyer">
+                <a href="#five" className="text-purple-600 bebas text-xl ml-3 px-2 mr-6 hover:text-purple-500 transition-all duration-300">
                     Contact
                 </a>
             </div>
