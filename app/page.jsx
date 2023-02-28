@@ -28,7 +28,7 @@ export default function HomePage(){
         <p id="two" className="absolute top-[-14rem] invisible">anchor</p>
       </div>
       <div className="flex flex-col lg:w-1/2 w-5/6 md:w-3/5 mx-auto h-[75vh] -mt-2 justify-center relative">
-        <p id="three" className="absolute invisible">anchor</p>
+        <p id="three" className="absolute invisible -top-20">anchor</p>
         <p className="text-purple-500 bebas text-4xl mb-3">technical skills</p>
         <div className="flex flex-wrap items-center justify-center w-full mx-auto">
           <div className="rounded-full bg-neutral-500/20 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
