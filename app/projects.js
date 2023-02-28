@@ -1,7 +1,7 @@
 export const projects = [
     {
         name: 'Exposure',
-        description: 'An online discover app to exposure yourself to new walks of life or dive deeper a familiar topic',
+        description: 'An online discovery app to exposure yourself to new walks of life or dive deeper a familiar topic',
         projectUrl: 'http://www.exposure-website.com',
         repository: 'https://github.com/konstantinstanmeyer/exposure',
         languages: [
