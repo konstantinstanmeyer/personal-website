@@ -1,6 +1,5 @@
 import { projects } from '../projects';
 import PreviewCard from './PreviewCard.jsx'
-import Links from './Links.jsx'
 
 export default function Projects(){
     return(
@@ -11,7 +10,6 @@ export default function Projects(){
                 <PreviewCard project={projects[1]} />
                 <PreviewCard project={projects[2]} />
             </div>
-            <Links />
         </div>
     )
 }

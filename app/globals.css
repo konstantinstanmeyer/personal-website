@@ -18,12 +18,12 @@
     @variants hover {
         .hover {
             filter: invert(42%) sepia(35%) saturate(4518%) hue-rotate(244deg) brightness(97%) contrast(101%);
-            scale: 1.2;
+            scale: 1.1;
         }
     }
     .link {
         filter: invert(15%) sepia(51%) saturate(6416%) hue-rotate(270deg) brightness(100%) contrast(96%);
-        @apply w-8 sm:w-14 mx-4 transition-all duration-300 hover:cursor-pointer;
+        @apply transition-all duration-300 hover:hover hover:cursor-pointer;
     }
 }
 
@@ -39,3 +39,6 @@
     line-break: anywhere;
 }
 
+html {
+    scroll-behavior:smooth
+}

@@ -1,5 +1,5 @@
-import PreviewCard from "./projects/PreviewCard"
-import Link from "next/link";
+import PreviewCard from "../components/PreviewCard"
+import Image from "next/image";
 import Links from "../components/Links";
 
 import { projects } from './projects';
@@ -7,49 +7,56 @@ import { projects } from './projects';
 export default function HomePage(){
   return(
     <>
-    <div className="mx-auto flex flex-col -mt-4 justify-center relative z-40">
-      <div className="w-3/5 sm:w-2/5 mx-auto flex flex-row select-none px-5 relative bg-black/30 backdrop-blur-sm rounded-lg py-3 duration-500 transform transition-all translate-y-12 ease-out">
-        <div className="transition-opacity ease-in duration-700">
-          <h1 className="text-2xl sm:text-4xl font-bold text-purple-700 bebas -my-1">Konstantin Stanmeyer</h1>
-          <h4 className="text-xl sm:text-3xl text-purple-500 font-bold -my-1">Software Engineer</h4>
-          <Link href="projects" className="text-lg sm:text-2xl text-purple-300 font-bold mb-1 hover:underline">Projects</Link>
-          <div className="flex flex-row items-center font-bold text-gray-400 [&>*]:mr-2 sm:[&>*]:mr-3">
-            <a target="_blank" className="text-purple-400 hover:underline bebas sm:text-base text-sm" href="https://github.com/konstantinstanmeyer">Github</a>
-            <a target="_blank" className="text-purple-400 hover:underline bebas sm:text-base text-sm" href="https://www.linkedin.com/in/konstantin-stanmeyer/">LinkedIn</a>
-            <a target="_blank" className="text-purple-400 hover:underline bebas sm:text-base text-sm" href="https://dev.to/konstantinstanmeyer">Blog</a>
+    <Links />
+    <div className="mx-auto flex flex-col justify-center relative z-30">
+      <div id="one" className="absolute top-0 invisible h-1">
+        util
+      </div>
+      <div className="w-4/5 sm:w-3/5 mx-auto flex flex-row select-none relative duration-500 transform transition-all translate-y-12 ease-out">
+        <div className="transition-opacity ease-in duration-700 h-screen flex flex-col justify-center">
+          <h1 className="text-6xl sm:text-8xl font-bold text-purple-700 bebas -mt-12">Konstantin Stanmeyer</h1>
+          <h4 className="text-4xl sm:text-6xl text-purple-500 font-bold">Full-Stack Software Engineer</h4>
+          <div className="flex flex-row items-center font-bold text-gray-400 mt-2">
+            <a className="text-purple-400 hover:underline bebas sm:text-3xl text-xl rounded-md mr-5" href="#two">ABOUT ME</a>
+            <a target="_blank" className="text-purple-400 hover:underline bebas sm:text-3xl text-xl rounded-md mr-4" href="https://dev.to/konstantinstanmeyer">BLOG</a>
           </div>
         </div>
       </div>
-      <p className="text-purple-300 text-base sm:text-lg font-bold my-4 w-4/5 sm:w-2/5 mt-16 mx-auto select-none bg-black/30 backdrop-blur-sm py-2 rounded-lg px-4">
-        <span className="bebas text-lg sm:text-xl text-purple-400 ">ABOUT ME: </span>I'm a full-stack software engineer with a passion for learning in all forms. I love to challenge myself, always striving to improve my process and approach. Experienced with multiple languages and frameworks including NEXT.js and Ruby on Rails. Avid runner and skateboarder.
-      </p>
-      <div className="flex flex-col lg:w-1/2 w-5/6 md:w-3/5 mx-auto mt-1 mb-36">
+      <div className="h-fit flex items-center bg-purple-800/10 relative">
+        <p className="text-purple-300 text-2xl my-12 font-bold w-4/5 sm:w-4/5 mx-auto select-none backdrop-blur-sm rounded-lg">
+          <span className="bebas text-2xl sm:text-3xl text-purple-400 ">ABOUT ME: </span>I'm a full-stack software engineer with a passion for learning in all forms. I love to challenge myself, always striving to improve my process and approach. Experienced with multiple languages and frameworks including NEXT.js and Ruby on Rails. Avid runner and skateboarder.
+        </p>
+        <p id="two" className="absolute top-[-14rem] invisible">anchor</p>
+      </div>
+      <div className="flex flex-col lg:w-1/2 w-5/6 md:w-3/5 mx-auto mt-1 mb-36 h-[75vh] justify-center relative">
+        <p id="three" className="absolute invisible">anchor</p>
+        <p className="text-purple-500 bebas text-4xl mb-3">technical skills</p>
         <div className="flex flex-wrap items-center justify-center w-full mx-auto">
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
+          <div className="rounded-full bg-neutral-500/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
             <img alt="javascript" src="/javascript.png" className="w-[80%] h-[80%] rounded-full" />
           </div>
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 md:aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
+          <div className="rounded-full bg-neutral-500/30 backdrop-blur-sm w-28 md:aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
             <img alt="react" src="/react.png" className="w-[80%] h-[80%] rounded-full" />
           </div>
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-125">
+          <div className="rounded-full bg-neutral-500/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-125">
             <img alt="redux" src="/redux.png" className="w-[75%] h-[75%] invert object-cover" />
           </div>
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-125">
+          <div className="rounded-full bg-neutral-500/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-125">
             <img alt="nextjs" src="/nextjs.svg" className="w-[80%] h-[80%] rounded-full invert" />
           </div>
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-125">
+          <div className="rounded-full bg-neutral-500/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-125">
             <img alt="mongodb" src="/mongodb.webp" className="w-[70%] h-[70%]" />
           </div>
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
+          <div className="rounded-full bg-neutral-500/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
             <img alt="ruby" src="/ruby.png" className="w-[80%] h-[80%] rounded-full" />
           </div>
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
+          <div className="rounded-full bg-neutral-500/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
             <img alt="ruby-on-rails" src="/rails.png" className="w-[80%] h-[80%] rounded-full" />
           </div>
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-125">
+          <div className="rounded-full bg-neutral-500/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-125">
             <img alt="postgres" src="/postgres.png" className="w-[80%] h-[80%] object-cover rounded-full" />
           </div>
-          <div className="rounded-full bg-black/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
+          <div className="rounded-full bg-neutral-500/30 backdrop-blur-sm w-28 aspect-square md:mx-2 lg:mx-4 flex justify-center items-center my-2 mx-1 hover:scale-105 transition-translate duration-300 hover:brightness-110">
             <img alt="aws" src="/aws.png" className="w-[80%] h-[80%] object-cover rounded-full" />
           </div>
         </div>
@@ -61,7 +68,6 @@ export default function HomePage(){
         <h6 className="text-xl text-purple-400"><span className="text-2xl font-bold">Tools:</span> Google Cloud | AWS(S3, EC2, Amplify) | Heroku | Docker | NGINX | Vercel | Postman</h6>
       </div> */}
     </div>
-    <Links />
     </>
   )
 }
