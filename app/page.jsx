@@ -20,7 +20,7 @@ export default function HomePage(){
             <a className="text-purple-400 hover:underline bebas sm:text-3xl text-xl rounded-md mr-5" href="#two">ABOUT ME</a>
             <a target="_blank" className="text-purple-400 hover:underline bebas sm:text-3xl text-xl rounded-md mr-4" href="https://dev.to/konstantinstanmeyer">BLOG</a>
             <Link href="resume">
-              <img className="resume w-10" src="/resume.png" />
+              <img className="resume w-8" src="/resume.png" />
             </Link>
           </div>
         </div>
@@ -71,7 +71,7 @@ export default function HomePage(){
         <h6 className="text-xl text-purple-400"><span className="text-2xl font-bold">Tools:</span> Google Cloud | AWS(S3, EC2, Amplify) | Heroku | Docker | NGINX | Vercel | Postman</h6>
       </div> */}
       <Projects />
-      <div id="five" className="h-[20vh] flex flex-col items-center justify-center">
+      <div id="five" className="h-[20vh] flex flex-col items-center justify-center mb-10">
         <p className="text-purple-300 bebas text-2xl">Contact:</p>
         <p className="text-purple-300 bebas text-2xl">konstantin@stanmeyer.com</p>
       </div>
