@@ -14,8 +14,8 @@ export default function HomePage(){
       </div>
       <div className="w-4/5 sm:w-3/5 mx-auto flex flex-row select-none relative duration-500 transform transition-all translate-y-12 ease-out">
         <div className="transition-opacity ease-in duration-700 h-screen flex flex-col justify-center">
-          <h1 className="text-4xl sm:text-8xl font-bold text-purple-700 bebas break-word -mt-16 sm:-mt-12">Konstantin Stanmeyer</h1>
-          <h4 className="text-2xl sm:text-6xl text-purple-500 break-word font-bold">Full-Stack Software Engineer</h4>
+          <h1 className="text-5xl sm:text-8xl font-bold text-purple-700 bebas break-word -mt-16 sm:-mt-12">Konstantin Stanmeyer</h1>
+          <h4 className="text-3xl sm:text-6xl text-purple-500 break-word font-bold">Full-Stack Software Engineer</h4>
           <div className="flex flex-row items-center font-bold text-gray-400 mt-2">
             <a className="text-purple-400 hover:underline bebas sm:text-3xl text-xl rounded-md mr-5" href="#two">ABOUT ME</a>
             <a target="_blank" className="text-purple-400 hover:underline bebas sm:text-3xl text-xl rounded-md mr-4" href="https://dev.to/konstantinstanmeyer">BLOG</a>
