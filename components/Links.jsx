@@ -17,7 +17,7 @@ export default function Links(){
     }, [y])
 
     return(
-        <div className={`flex fixed ${isTop ? null : "bg-black-20 backdrop-blur-base sm:backdrop-blur-sm"} w-full bottom-0 sm:bottom-auto top-auto sm:top-0 z-40 py-3`}>
+        <div className={`flex fixed ${isTop ? null : "bg-black-20 backdrop-blur-md sm:backdrop-blur-sm"} w-full bottom-0 sm:bottom-auto top-auto sm:top-0 z-40 py-3`}>
             <div className="flex flex-row items-center w-full h-fit">
                 <a target="_blank" href="https://github.com/konstantinstanmeyer" className="ml-2">
                     <Image alt="github" src="/github.png" width={40} height={40} className="link rounded-full ml-3 sm:block hidden" />
