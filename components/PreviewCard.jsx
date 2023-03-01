@@ -12,13 +12,13 @@ export default function ProjectCard({ project }){
             <p className="select-none bebas w-[95%] mx-auto text-sm pl-1 pt-1 text-purple-300 font-semibold">{description}</p>
             <p className="pl-1 bebas pr-2 select-none w-[95%] mx-auto text-sm pt-1 pb-[0.15rem] text-purple-400 mb-12">{languages}</p>
             <div className="flex flex-row justify-center w-full absolute bottom-3">
-                <a href={repository} className="text-neutral-900 bebas bg-purple-600 ml-auto mr-2 px-2 py-1 rounded-md hover:bg-purple-500 hover:text-neutral-800 transition-all duration-300 flex flex-row">
+                <a href={repository} className={`text-neutral-900 bebas bg-purple-600 ml-auto mr-2 px-2 py-1 rounded-md hover:bg-purple-500 hover:text-neutral-800 transition-all duration-300 flex flex-row`}>
                     <p>CODE</p>
-                    <img className="h-6 ml-2 aspect-square" src="/code.png" />
+                    <img alt={util} className="h-6 ml-2 aspect-square" src="/code.png" />
                 </a>
-                <button onClick={() => alert('demos coming soon')} className="text-neutral-900 bebas bg-purple-600 mr-auto ml-2 px-2 py-1 rounded-md hover:bg-purple-500 hover:text-neutral-800 transition-all duration-300 flex flex-row">
+                <button onClick={() => alert('demos coming soon')} className={`text-neutral-900 bebas bg-purple-600 mr-auto ml-2 px-2 py-1 rounded-md hover:bg-purple-500 hover:text-neutral-800 transition-all duration-300 flex flex-row`}>
                     <p>DEMO</p>
-                    <img className="h-6 ml-2 aspect-square" src="/tv.png" />
+                    <img alt={util} className="h-6 ml-2 aspect-square" src="/tv.png" />
                 </button>
             </div>
         </div>

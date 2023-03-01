@@ -9,6 +9,7 @@ export default function Projects(){
                 <PreviewCard project={projects[0]} />
                 <PreviewCard project={projects[1]} />
                 <PreviewCard project={projects[2]} />
+                <PreviewCard project={projects[3]} />
             </div>
         </div>
     )

@@ -8,7 +8,8 @@ export const projects = [
             "NEXT.js, TypeScript, Node.js, Redux, MongoDB, AWS(S3, EC2)"
         ],
         util: 'keyboard-app',
-        image: "/exposure-browse.png"
+        image: "/exposure-browse.png",
+        isGroup: false
     },
     {
         name: 'Keyboard App',
@@ -19,7 +20,8 @@ export const projects = [
             "React, Rails on Rails, Devise, ActiveStorage, Tailwind CSS, Google Cloud"
         ],
         util: 'keyboard-app',
-        image: "/keyboard-main.png"
+        image: "/keyboard-main.png",
+        isGroup: false
     },
     {
         name: 'Run for the Hills',
@@ -30,5 +32,18 @@ export const projects = [
         ],
         util: 'run-for-the-hills',
         image: "/rfth.png",
+        isGroup: true
+    },
+    {
+        name: 'Lukon Drink-Finder',
+        description: "Static site to learn several recipes for different spirits | Made in the third week of Flatiron School's coding bootcamp",
+        repository: 'https://github.com/konstantinstanmeyer/Lukon-Drink-Finder',
+        projectUrl: 'http://lukon-drink-finder.s3-website.us-east-2.amazonaws.com/',
+        languages: [
+            "HTML, JavaScript, CSS"
+        ],
+        util: 'lukon',
+        image: "/lukon.png",
+        isGroup: true,
     }
 ]

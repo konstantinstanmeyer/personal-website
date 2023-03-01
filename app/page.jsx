@@ -14,13 +14,13 @@ export default function HomePage(){
       </div>
       <div className="w-4/5 sm:w-3/5 mx-auto flex flex-row select-none relative duration-500 transform transition-all translate-y-12 ease-out">
         <div className="transition-opacity ease-in duration-700 h-screen flex flex-col justify-center">
-          <h1 className="text-6xl sm:text-8xl font-bold text-purple-700 bebas break-word -mt-12">Konstantin Stanmeyer</h1>
+          <h1 className="text-6xl sm:text-8xl font-bold text-purple-700 bebas break-word -mt-16 sm:-mt-12">Konstantin Stanmeyer</h1>
           <h4 className="text-4xl sm:text-6xl text-purple-500 break-word font-bold">Full-Stack Software Engineer</h4>
           <div className="flex flex-row items-center font-bold text-gray-400 mt-2">
             <a className="text-purple-400 hover:underline bebas sm:text-3xl text-xl rounded-md mr-5" href="#two">ABOUT ME</a>
             <a target="_blank" className="text-purple-400 hover:underline bebas sm:text-3xl text-xl rounded-md mr-4" href="https://dev.to/konstantinstanmeyer">BLOG</a>
             <Link href="resume">
-              <img className="resume w-10" src="/resume.png" />
+              <img className="resume w-8" src="/resume.png" />
             </Link>
           </div>
         </div>
@@ -29,7 +29,7 @@ export default function HomePage(){
         <p className="text-purple-300 text-2xl my-12 font-bold w-4/5 sm:w-4/5 mx-auto select-none backdrop-blur-sm rounded-lg">
           <span className="bebas text-2xl sm:text-3xl text-purple-400 ">ABOUT ME: </span>I'm a full-stack software engineer with a passion for learning in all forms. I love to challenge myself, always striving to improve my process and approach. Experienced with multiple languages and frameworks including NEXT.js and Ruby on Rails. Avid runner and skateboarder.
         </p>
-        <p id="two" className="absolute top-[-14rem] invisible">anchor</p>
+        <p id="two" className="absolute top-[-6rem] sm:top-[-14rem] invisible">anchor</p>
       </div>
       <div className="flex flex-col lg:w-1/2 w-5/6 md:w-3/5 mx-auto h-[75vh] -mt-2 justify-center relative">
         <p id="three" className="absolute invisible -top-20">anchor</p>
@@ -71,7 +71,7 @@ export default function HomePage(){
         <h6 className="text-xl text-purple-400"><span className="text-2xl font-bold">Tools:</span> Google Cloud | AWS(S3, EC2, Amplify) | Heroku | Docker | NGINX | Vercel | Postman</h6>
       </div> */}
       <Projects />
-      <div id="five" className="h-[20vh] flex flex-col items-center justify-center">
+      <div id="five" className="h-[20vh] flex flex-col items-center justify-center mb-10">
         <p className="text-purple-300 bebas text-2xl">Contact:</p>
         <p className="text-purple-300 bebas text-2xl">konstantin@stanmeyer.com</p>
       </div>
