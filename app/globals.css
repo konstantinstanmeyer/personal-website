@@ -33,10 +33,10 @@
 
 #text{
     background: url('/profile.png');
-    background-attachment: fixed;
+    background-attachment: scroll;
     -webkit-background-clip: text;
     font-size: 7px;
-    background-position:right bottom;
+    background-position:right top;
     background-repeat: no-repeat;
     background-size: contain;
     -webkit-text-fill-color: rgba(255,255,255,0.1);
