@@ -2,8 +2,6 @@ import Projects from "@/components/Projects";
 import Link from "next/link";
 import Links from "../components/Links";
 
-import { projects } from './projects';
-
 export default function HomePage(){
   return(
     <>
