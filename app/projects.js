@@ -14,7 +14,7 @@ export const projects = [
     {
         name: 'Keyboard App',
         description: 'Test your words-per-minute against multiple game modes and compare them against other users',
-        projectUrl: 'https://starlit-brigadeiros-2cb599.netlify.app/',
+        projectUrl: 'http://keyboard-typing.com/',
         repository: 'https://github.com/konstantinstanmeyer/keyboard-app',
         languages: [
             "React, Rails on Rails, Devise, ActiveStorage, Tailwind CSS, Google Cloud"
