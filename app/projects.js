@@ -5,7 +5,7 @@ export const projects = [
         projectUrl: 'http://www.exposure-website.com',
         repository: 'https://github.com/konstantinstanmeyer/exposure',
         languages: [
-            "NEXT.js, TypeScript, Node.js, Redux, MongoDB, AWS(S3, EC2)"
+            "NEXT.js, TypeScript, Redux, MongoDB, AWS"
         ],
         util: 'keyboard-app',
         image: "/exposure-browse.png",

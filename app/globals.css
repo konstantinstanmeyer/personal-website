@@ -29,6 +29,9 @@
         filter: invert(78%) sepia(46%) saturate(5639%) hue-rotate(218deg) brightness(95%) contrast(109%);
         @apply transition-all duration-300 hover:hover hover:cursor-pointer;
     }
+    .invert-logo {
+        filter: invert(59%) sepia(79%) saturate(1837%) hue-rotate(221deg) brightness(100%) contrast(98%);
+    }
 }
 
 #text{

@@ -28,11 +28,11 @@ export default function Links(){
                 <a href="#two" className="text-purple-400 sm:text-purple-600 mx-auto bebas text-base sm:text-xl sm:mx-3 px-2 hover:text-purple-500 transition-all duration-300">
                     About
                 </a>
-                <a href="#four" className="text-purple-400 sm:text-purple-600 bebas mx-auto text-base sm:text-xl sm:mx-3 px-2 hover:text-purple-500 transition-all duration-300">
-                    Projects
-                </a>
                 <a href="#three" className="text-purple-400 sm:text-purple-600 bebas mx-auto text-base sm:text-xl sm:mx-3 px-2 hover:text-purple-500 transition-all duration-300">
                     Skills
+                </a>
+                <a href="#four" className="text-purple-400 sm:text-purple-600 bebas mx-auto text-base sm:text-xl sm:mx-3 px-2 hover:text-purple-500 transition-all duration-300">
+                    Projects
                 </a>
                 <a href="#five" className="text-purple-400 sm:text-purple-600 bebas text-base sm:text-xl mx-auto sm:mx-3 px-2 sm:mr-8 hover:text-purple-500 transition-all duration-300">
                     Contact
