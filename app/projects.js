@@ -1,5 +1,17 @@
 export const projects = [
     {
+        name: 'Gerald Elias',
+        description: 'Website made for mystery author/musician Gerald Elias, with posts, events, etc.',
+        repository: 'https://github.com/konstantinstanmeyer/gerald-elias-new',
+        projectUrl: 'http://www.mysteriesandmusic.com/',
+        languages: [
+            "Next.js, Javascript, NodeMailer"
+        ],
+        util: 'gerald-elias',
+        image: "/gerald-elias.png",
+        isGroup: true
+    },
+    {
         name: 'Exposure',
         description: 'An online discovery app to exposure yourself to new walks of life or dive deeper a familiar topic',
         projectUrl: 'http://www.exposure-website.com',
@@ -14,7 +26,6 @@ export const projects = [
     {
         name: 'Keyboard App',
         description: 'Test your words-per-minute against multiple game modes and compare them against other users',
-        projectUrl: 'http://keyboard-typing.com/',
         repository: 'https://github.com/konstantinstanmeyer/keyboard-app',
         languages: [
             "React, Rails on Rails, Devise, ActiveStorage, Tailwind CSS, Google Cloud"
@@ -22,17 +33,6 @@ export const projects = [
         util: 'keyboard-app',
         image: "/keyboard-main.png",
         isGroup: false
-    },
-    {
-        name: 'Run for the Hills',
-        description: 'Use comedic filters to find your future lover in a country-style dating app',
-        repository: 'https://github.com/konstantinstanmeyer/Run-For-The-Hills-Frontend',
-        languages: [
-            "Ruby on Rails, PostgreSQL, React, Tailwind CSS"
-        ],
-        util: 'run-for-the-hills',
-        image: "/rfth.png",
-        isGroup: true
     },
     {
         name: 'Lukon Drink-Finder',
