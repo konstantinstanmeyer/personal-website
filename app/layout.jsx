@@ -1,8 +1,53 @@
+"use client"
+
 import './globals.css'
+import { Righteous, Tourney, Outfit } from "@next/font/google";
+import { useEffect } from 'react';
+
+const righteous = Righteous({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: '--font-righteous'
+})
+
+const tourney = Tourney({
+  subsets: ["latin"],
+  weight: ["500"],
+  variable: '--font-tourney'
+})
+
+const outfit = Outfit({
+  subsets: ["latin"],
+  weights: ["400", "600", "700", "900"],
+  variable: '--font-outfit'
+})
 
 export default function RootLayout({ children }) {
+  // const [text, setText] = useState("");
+
+  // useEffect(() => {
+  //   const windowHeight = window.innerHeight;
+  //   const textElement = document.getElementById("text");
+
+  //   let i = 0;
+
+  //   const appendInterval = setInterval(() => {
+  //     setText(text => text += lorem["lorem" + Math.floor(Math.random() * 6)]);
+  //     i++
+      
+  //     if(i % 200 === 0){
+  //       console.log(textElement.offsetHeight, " ", windowHeight);
+  //       if(textElement.offsetHeight - 200 >= windowHeight){
+  //         clearInterval(appendInterval);
+  //       }
+  //     }
+  //   }, 5)
+
+  //   return () => clearInterval(appendInterval);
+  // }, [window.innerHeight])
+
   return (
-    <html lang="en">
+    <html className={`${outfit.variable} ${righteous.variable} ${tourney.variable}`} lang="en">
       {/*
         <head /> will contain the components returned by the nearest parent
         head.jsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
@@ -10,12 +55,12 @@ export default function RootLayout({ children }) {
       <head />
       <body className="bg-black/95">
       <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"></link>
       <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"></link>
       <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@500&display=swap" rel="stylesheet"></link>
       <link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap" rel="stylesheet"></link>
       <p id="text" className="w-full h-screen absolute top-0 m-0 p-0 leading-[0.4rem] -z-40 select-none overflow-hidden">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius commodo nulla sollicitudin lacinia. Nunc aliquam, urna vitae pellentesque faucibus, est ex imperdiet mauris, vitae dictum nisi eros quis dolor. Donec elit libero, interdum at tincidunt nec, faucibus et quam. Nullam nibh dolor, venenatis ut lorem egestas, consequat hendrerit neque. Nullam eget arcu non nunc lacinia condimentum. Quisque cursus leo ut venenatis viverra. Fusce condimentum nec magna in semper.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius commodo nulla sollicitudin lacinia. Nunc aliquam, urna vitae pellentesque faucibus, est ex imperdiet mauris, vitae dictum nisi eros quis dolor. Donec elit libero, interdum at tincidunt nec, faucibus et quam. Nullam nibh dolor, venenatis ut lorem egestas, consequat hendrerit neque. Nullam eget arcu non nunc lacinia condimentum. Quisque cursus leo ut venenatis viverra. Fusce condimentum nec magna in semper.
           Donec libero urna, vestibulum vel rutrum id, porta vitae nibh. Vestibulum ac est ligula. Proin rhoncus libero ex, nec luctus ex pulvinar quis. Etiam auctor diam non consequat venenatis. Sed fermentum odio sed sapien porttitor posuere. Nullam eleifend rutrum metus nec sagittis. Duis consectetur ante ac sem vehicula, et facilisis arcu euismod. Cras metus lorem, interdum in maximus ut, cursus eget velit. Phasellus euismod feugiat eros, eu sagittis arcu euismod at. Pellentesque in tellus mauris. Aliquam sed ipsum efficitur, ultricies ante et, hendrerit purus.
           Vestibulum ut nibh eleifend, luctus dolor eu, hendrerit diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin ut erat sit amet risus rhoncus maximus. Curabitur bibendum lacus massa, id placerat dui tempus quis. Aenean ultricies eu dui ac aliquam. Cras pellentesque felis est. Praesent mattis vulputate tellus a fermentum. Proin ut nibh sem. Mauris pretium justo lacus, id blandit orci vehicula at. Etiam dapibus suscipit mauris, at feugiat est molestie quis. Donec gravida, dolor sit amet facilisis porta, sem tellus egestas nulla, at elementum velit libero at est. In neque turpis, bibendum eu libero ac, luctus lacinia urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida tempor arcu non varius.
           Curabitur eu mauris maximus nulla blandit luctus. Donec dictum, diam eget consectetur rutrum, nisi magna lobortis erat, a rutrum augue lorem ut lorem. Aenean porta mi et neque vulputate interdum. Maecenas ante urna, aliquet luctus enim eget, feugiat fringilla turpis. Nam id magna sapien. Ut quis euismod justo, sit amet vehicula ex. Integer mattis imperdiet eros id faucibus. Duis aliquet sed lacus non bibendum. Vestibulum lacus massa, malesuada non efficitur quis, tempor eu leo.
@@ -349,8 +394,8 @@ export default function RootLayout({ children }) {
           In tempor posuere ultrices. Integer vestibulum libero ornare tellus venenatis, at malesuada urna ullamcorper. Sed aliquet justo massa, et ornare elit ultrices ut. Pellentesque sodales pulvinar venenatis. Suspendisse quis luctus quam. Curabitur tempor massa at pharetra sollicitudin. Ut hendrerit rutrum neque eget pharetra. Etiam mollis molestie felis, vitae suscipit augue semper eget.
 
           Vestibulum sed orci sed nunc ultricies pellentesque et vel tortor. Aliquam id nibh sed arcu commodo rutrum. Pellentesque cursus pulvi
-        </p>
-        {children}
+      </p>
+      {children}
       </body>
     </html>
   )

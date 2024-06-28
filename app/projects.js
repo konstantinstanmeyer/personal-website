@@ -13,8 +13,7 @@ export const projects = [
     },
     {
         name: 'Exposure',
-        description: 'An online discovery app to exposure yourself to new walks of life or dive deeper a familiar topic',
-        projectUrl: 'http://www.exposure-website.com',
+        description: 'An online discovery app to expose yourself to new walks of life or dive deeper a familiar topic',
         repository: 'https://github.com/konstantinstanmeyer/exposure',
         languages: [
             "NEXT.js, TypeScript, Redux, MongoDB, AWS"
@@ -28,7 +27,7 @@ export const projects = [
         description: 'Test your words-per-minute against multiple game modes and compare them against other users',
         repository: 'https://github.com/konstantinstanmeyer/keyboard-app',
         languages: [
-            "React, Rails on Rails, Devise, ActiveStorage, Tailwind CSS, Google Cloud"
+            "React, Ruby on Rails, Devise, ActiveStorage, Tailwind CSS, Google Cloud"
         ],
         util: 'keyboard-app',
         image: "/keyboard-main.png",
